@@ -1,0 +1,11 @@
+# desktop - Send to Imgur
+# place under eg. ~/.local/share/Thunar/sendto
+[Desktop Entry]
+Type=Application
+Version=1.0
+Encoding=UTF-8
+TryExec=thunar-upload-to-imgur-preliminary.sh
+Exec=thunar-upload-to-imgur-preliminary.sh -f %F
+Icon=/home/appas/.local/share/Thunar/sendto/thunar-upload-to-imgur.png
+Name=Send to Imgur
+MimeType=image/jpeg;image/png;image/gif;
